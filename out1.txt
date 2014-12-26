@@ -1,0 +1,51 @@
+INFO      | 2014-12-10 08:34:22,477 |  ceres.framework.signal_generator | MainProcess | Dummy-9 | None | Prediction values are found for drac_run_id = 100609 and cloe_run_id = 3350198
+INFO      | 2014-12-10 08:34:22,478 |  ceres.framework.signal_generator | MainProcess | Dummy-7 | None | Prediction values are found for drac_run_id = 100609 and cloe_run_id = 3350198
+INFO      | 2014-12-10 08:34:22,478 |  ceres.framework.signal_generator | MainProcess | Dummy-8 | None | Prediction values are found for drac_run_id = 100609 and cloe_run_id = 3350198
+INFO      | 2014-12-10 08:34:22,599 |  ceres.framework.signal_generator | MainProcess | Dummy-9 | None | Prediction values are found for drac_run_id = 99648 and cloe_run_id = 3321479
+INFO      | 2014-12-10 08:34:22,614 |  ceres.framework.signal_generator | MainProcess | Dummy-7 | None | Prediction values are found for drac_run_id = 99648 and cloe_run_id = 3321479
+INFO      | 2014-12-10 08:34:22,619 |  ceres.framework.signal_generator | MainProcess | Dummy-9 | None | Prediction values are found for drac_run_id = 99133 and cloe_run_id = 3316670
+INFO      | 2014-12-10 08:34:22,477 |  ceres.framework.signal_generator | MainProcess | Dummy-9 | None | Prediction values are found for drac_run_id = 100609 and cloe_run_id = 3350198
+INFO      | 2014-12-10 08:34:22,478 |  ceres.framework.signal_generator | MainProcess | Dummy-7 | None | Prediction values are found for drac_run_id = 100609 and cloe_run_id = 3350198
+INFO      | 2014-12-10 08:34:22,478 |  ceres.framework.signal_generator | MainProcess | Dummy-8 | None | Prediction values are found for drac_run_id = 100609 and cloe_run_id = 3350198
+INFO      | 2014-12-10 08:34:22,599 |  ceres.framework.signal_generator | MainProcess | Dummy-9 | None | Prediction values are found for drac_run_id = 99648 and cloe_run_id = 3321479
+INFO      | 2014-12-10 08:34:22,614 |  ceres.framework.signal_generator | MainProcess | Dummy-7 | None | Prediction values are found for drac_run_id = 99648 and cloe_run_id = 3321479
+INFO      | 2014-12-10 08:34:22,619 |  ceres.framework.signal_generator | MainProcess | Dummy-9 | None | Prediction values are found for drac_run_id = 99133 and cloe_run_id = 3316670
+INFO      | 2014-12-10 08:34:20,225 |  ceres.framework.intraday_sizing_calculator.IntradaySizingCalculator | MainProcess | Dummy-6 | strategy_id=None | Query = select trading_pnl,trading_pnl_pct from trade_metrics where drac_run_id=9827 and symbol1='BAC' and po_config_id = 2159 and trade_date in ('20141208','20141205','20141204') order by trade_date ASC
+INFO      | 2014-12-10 08:34:20,226 |  ceres.framework.intraday_sizing_calculator.IntradaySizingCalculator | MainProcess | Dummy-9 | None | Query = select trading_pnl,trading_pnl_pct from trade_metrics where drac_run_id=9827 and symbol1='XLI' and po_config_id = 2555 and trade_date in ('20141208','20141205','20141204') order by trade_date ASC
+INFO      | 2014-12-10 08:34:20,226 |  ceres.framework.intraday_sizing_calculator.IntradaySizingCalculator | MainProcess | Dummy-8 | None | Query = select trading_pnl,trading_pnl_pct from trade_metrics where drac_run_id=9827 and symbol1='XLI' and po_config_id = 2159 and trade_date in ('20141208','20141205','20141204') order by trade_date ASC
+INFO      | 2014-12-10 08:34:20,416 |  ceres.framework.intraday_sizing_calculator.IntradaySizingCalculator | MainProcess | Dummy-7 | None | Intraday sizing controller. Intraday Capital = 1800.0, intraday position limit = 102.
+INFO      | 2014-12-10 08:34:20,417 |  ceres.framework.intraday_sizing_calculator.IntradaySizingCalculator | MainProcess | Dummy-6 | strategy_id=None | Intraday sizing controller. Intraday Capital = 1500.0, intraday position limit = 85.
+INFO      | 2014-12-10 08:34:20,421 |  ceres.trade_strategy.abstract_simple_strategy | MainProcess | Dummy-7 | None | Overriding default heartBeatFrequency to 60.
+CRITICAL  | 2014-12-10 08:34:20,421 |  ceres.trade_signal.indicators.ewma_indicator | MainProcess | Dummy-7 | None | Initialized Indicator with meanset = 1,2,5,7,9,10,15,16,17,20,23,24,26,28,30,34,37,42,47,49,50,51,56,61,62,65,69,70,71,72
+INFO      | 2014-12-10 08:34:20,422 |  ceres.trade_strategy.abstract_simple_strategy | MainProcess | Dummy-6 | strategy_id=None | Overriding default heartBeatFrequency to 60.
+CRITICAL  | 2014-12-10 08:34:20,422 |  ceres.trade_signal.indicators.ewma_indicator | MainProcess | Dummy-6 | strategy_id=None | Initialized Indicator with meanset = 1,2,3,4,6,9,11,18,20,22,23,24,25,30,35,36,37,38,39,41,46,49,50,52,53,61,63,64,65,68
+INFO      | 2014-12-10 08:34:20,459 |  ceres.framework.signal_generator | MainProcess | Dummy-7 | None | Loading quantiles from HBase for prod run
+INFO      | 2014-12-10 08:34:20,460 |  ceres.framework.signal_generator | MainProcess | Dummy-6 | strategy_id=None | Loading quantiles from HBase for prod run
+INFO      | 2014-12-10 08:34:20,464 |  ceres.framework.signal_generator | MainProcess | Dummy-6 | strategy_id=None | Loading 3 days prediction values from ['20141209', '20141208', '20141205', '20141204', '20141203', '20141202', '20141201', '20141128'] tarde dates, in reverse cronological order
+INFO      | 2014-12-10 08:34:20,465 |  ceres.framework.signal_generator | MainProcess | Dummy-7 | None | Loading 3 days prediction values from ['20141209', '20141208', '20141205', '20141204', '20141203', '20141202', '20141201', '20141128'] tarde dates, in reverse cronological order
+INFO      | 2014-12-10 08:34:20,629 |  ceres.framework.intraday_sizing_calculator.IntradaySizingCalculator | MainProcess | Dummy-9 | None | Intraday sizing controller. Intraday Capital = 1800.0, intraday position limit = 31.
+INFO      | 2014-12-10 08:34:20,630 |  ceres.framework.intraday_sizing_calculator.IntradaySizingCalculator | MainProcess | Dummy-8 | None | Intraday sizing controller. Intraday Capital = 1500.0, intraday position limit = 26.
+INFO      | 2014-12-10 08:34:20,634 |  ceres.trade_strategy.abstract_simple_strategy | MainProcess | Dummy-9 | None | Overriding default heartBeatFrequency to 60.
+CRITICAL  | 2014-12-10 08:34:20,634 |  ceres.trade_signal.indicators.ewma_indicator | MainProcess | Dummy-9 | None | Initialized Indicator with meanset = 2,8,16,21,25,32,38,43,44,47,48,49,61,63,67,71,73,101,106,107,108,114,116,128,129,131,134,136,143,144
+INFO      | 2014-12-10 08:34:20,635 |  ceres.trade_strategy.abstract_simple_strategy | MainProcess | Dummy-8 | None | Overriding default heartBeatFrequency to 60.
+CRITICAL  | 2014-12-10 08:34:20,635 |  ceres.trade_signal.indicators.ewma_indicator | MainProcess | Dummy-8 | None | Initialized Indicator with meanset = 1,2,5,7,9,10,15,16,17,20,23,24,26,28,30,34,37,42,47,49,50,51,56,61,62,65,69,70,71,72
+INFO      | 2014-12-10 08:34:20,640 |  ceres.framework.signal_generator | MainProcess | Dummy-9 | None | Loading quantiles from HBase for prod run
+INFO      | 2014-12-10 08:34:20,641 |  ceres.framework.signal_generator | MainProcess | Dummy-8 | None | Loading quantiles from HBase for prod run
+INFO      | 2014-12-10 08:34:20,645 |  ceres.framework.signal_generator | MainProcess | Dummy-9 | None | Loading 3 days prediction values from ['20141209', '20141208', '20141205', '20141204', '20141203', '20141202', '20141201', '20141128'] tarde dates, in reverse cronological order
+INFO      | 2014-12-10 08:34:20,646 |  ceres.framework.signal_generator | MainProcess | Dummy-8 | None | Loading 3 days prediction values from ['20141209', '20141208', '20141205', '20141204', '20141203', '20141202', '20141201', '20141128'] tarde dates, in reverse cronological order
+CRITICAL  | 2014-12-10 08:34:22,191 |  ceres.sim.ceres_utils | MainProcess | Dummy-7 | None | selected thrift host = 172.16.30.146
+CRITICAL  | 2014-12-10 08:34:22,192 |  ceres.sim.ceres_utils | MainProcess | Dummy-6 | strategy_id=None | selected thrift host = 172.16.30.124
+CRITICAL  | 2014-12-10 08:34:22,256 |  ceres.sim.ceres_utils | MainProcess | Dummy-9 | None | selected thrift host = 172.16.30.124
+INFO      | 2014-12-10 08:34:22,278 |  ceres.framework.signal_generator | MainProcess | Dummy-6 | strategy_id=None | Prediction values are not found for drac_run_id = 101219 and cloe_run_id = 3367406
+INFO      | 2014-12-10 08:34:22,283 |  ceres.framework.signal_generator | MainProcess | Dummy-7 | None | Prediction values are not found for drac_run_id = 101219 and cloe_run_id = 3367406
+CRITICAL  | 2014-12-10 08:34:22,305 |  ceres.sim.ceres_utils | MainProcess | Dummy-8 | None | selected thrift host = 172.16.30.216
+INFO      | 2014-12-10 08:34:22,318 |  ceres.framework.signal_generator | MainProcess | Dummy-9 | None | Prediction values are not found for drac_run_id = 101219 and cloe_run_id = 3367406
+INFO      | 2014-12-10 08:34:22,329 |  ceres.framework.signal_generator | MainProcess | Dummy-8 | None | Prediction values are not found for drac_run_id = 101219 and cloe_run_id = 3367406
+INFO      | 2014-12-10 08:34:22,468 |  ceres.framework.signal_generator | MainProcess | Dummy-6 | strategy_id=None | Prediction values are found for drac_run_id = 100609 and cloe_run_id = 3350198
+INFO      | 2014-12-10 08:34:22,477 |  ceres.framework.signal_generator | MainProcess | Dummy-9 | None | Prediction values are found for drac_run_id = 100609 and cloe_run_id = 3350198
+INFO      | 2014-12-10 08:34:22,478 |  ceres.framework.signal_generator | MainProcess | Dummy-7 | None | Prediction values are found for drac_run_id = 100609 and cloe_run_id = 3350198
+INFO      | 2014-12-10 08:34:22,478 |  ceres.framework.signal_generator | MainProcess | Dummy-8 | None | Prediction values are found for drac_run_id = 100609 and cloe_run_id = 3350198
+INFO      | 2014-12-10 08:34:22,599 |  ceres.framework.signal_generator | MainProcess | Dummy-9 | None | Prediction values are found for drac_run_id = 99648 and cloe_run_id = 3321479
+INFO      | 2014-12-10 08:34:22,614 |  ceres.framework.signal_generator | MainProcess | Dummy-7 | None | Prediction values are found for drac_run_id = 99648 and cloe_run_id = 3321479
+INFO      | 2014-12-10 08:34:22,619 |  ceres.framework.signal_generator | MainProcess | Dummy-9 | None | Prediction values are found for drac_run_id = 99133 and cloe_run_id = 3316670
+                                                                                                                                                                             
